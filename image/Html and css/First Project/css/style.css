@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+.page width {
+    max-width: 1250px;
+    margin: auto;
+    padding: 0 15px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_link li{
+    list-style: none;
+    display: inline-block;
+    padding: 30px 15px;
+
+}
+.nav_link a {
+    color: #C4C4C4;
+
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+text-decoration: none;
+}
+.nav_link a:hover {
+    color: #058B8C ;
+    font-weight: 400;
+} 
+.nav_link li:last-child a {
+    background: #058B8C;
+    text-decoration: none;
+    color: #FFF;
+    border-radius: 54px;
+
+font-family: Rubik;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+font-family: Rubik;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+padding: 15px;
+
+}
+.outer_footer {
+    padding: 50px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+.outer_footer .footer_column_one p{
+    color: #8F8F8F;
+font-family: Rubik;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+margin-top: 0.5rem;
+}
+.footer_column_two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.footer_column_two li,
+.footer_column_three li{
+    list-style: none;
+    padding: 15px;
+}
+.footer_column_two li a,
+.footer_column_three li a{
+    color: #8F8F8F;
+font-family: Rubik;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+text-decoration: none;
+}
+.footer_column_two li a:hover,
+.footer_column_three li a:hover {
+    color: #1E1E1E;
+    font-weight: 400px;
+}
+.news_letter{
+    display: flex;
+}
+.news_letter input{
+    width: 70%;
+    border-radius: 341px;
+border: 2px solid #058B8C;
+border-radius: 50px;
+height: 45px;
+padding-left:1rem ;
+
+}
+.news_letter input::placeholder{
+    color: #8F8F8F;
+font-family: Rubik;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 30px; /* 166.667% */
+color: #8F8F8F;
+}
+.news_letter button {
+    width: 113px;
+height: 48px;
+flex-shrink: 0;
+    border-radius: 48px;
+background: #058B8C;
+box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
+color: #FFF;
+font-family: Rubik;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+border: none;
+}
+
