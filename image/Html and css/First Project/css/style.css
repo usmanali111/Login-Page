@@ -133,3 +133,8 @@ line-height: 30px; /* 166.667% */
 border: none;
 }
 
+.banner_section{   
+    padding: 50px 0px;
+    background-image: url('../First Project/assets/banner.svg');
+
+}
